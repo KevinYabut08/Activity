@@ -1,38 +1,38 @@
 /* Body text */
 body {
-  background-color: yellow;
+  background-color: hsl(324, 76%, 78%);
   text-align: center;
 }
 
 /* Call-to-action container */
 .cta {
-  border: 15px solid black;
+  border: 15px solid hsl(320, 94%, 24%);
   margin: auto;
   width: 20%;
-  background-color: black;
+  background-color: hsl(320, 94%, 24%);
   padding: 50px;
   border-radius: 10%;
-  color: white;
+  color: hsl(0, 0%, 100%);
 }
 
 /* Call to Action "button" */
 .cta a,
 .cta a:visited {
   text-decoration-line: none;
-  background-color: yellow;
+  background-color: hsl(324, 76%, 78%);
   font-weight: bold;
-  color: black;
+  color: hsl(320, 94%, 24%);
   border-radius: 10%;
   padding: 10px;
 }
 
 /* Hover state */
 .cta a:hover {
-  background-color: darkgoldenrod;
-  color: white;
+  background-color: hsl(313, 93%, 34%);
+  color: hsl(0, 0%, 100%);
 }
 
 /* Click state */
 .cta a:active {
-  color: yellow;
+  color: hsl(324, 76%, 78%);
 }
