@@ -1,0 +1,38 @@
+/* Body text */
+body {
+  background-color: yellow;
+  text-align: center;
+}
+
+/* Call-to-action container */
+.cta {
+  border: 15px solid black;
+  margin: auto;
+  width: 20%;
+  background-color: black;
+  padding: 50px;
+  border-radius: 10%;
+  color: white;
+}
+
+/* Call to Action "button" */
+.cta a,
+.cta a:visited {
+  text-decoration-line: none;
+  background-color: yellow;
+  font-weight: bold;
+  color: black;
+  border-radius: 10%;
+  padding: 10px;
+}
+
+/* Hover state */
+.cta a:hover {
+  background-color: darkgoldenrod;
+  color: white;
+}
+
+/* Click state */
+.cta a:active {
+  color: yellow;
+}
